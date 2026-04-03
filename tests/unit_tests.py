@@ -2,12 +2,6 @@ import unittest
 import pycalc.pycalc as calculator
 
 class PyCalcUnitTests(unittest.TestCase):
-  def multi(a,b):
-    res = 0
-    i = 0
-    while i < b:
-      res += a
-    return a
 
   def test_multi(self):
     left = [5]
