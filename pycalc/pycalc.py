@@ -12,6 +12,10 @@ def add(a, b):
 def subtract(a, b):
   pass
 def multiply(a, b):
-  pass
+    res = 0
+    i = 0
+    while i < b:
+      res += a
+    return a
 def divide(a, b):
   pass
